@@ -6,15 +6,23 @@ import { Bar, Line, Pie } from "react-chartjs-2";
 import "./chart.styles.css";
 
 class Chart extends Component {
-  // state = {
-  //   chartData: this.props.chartData,
-  // };
-
   render() {
-    console.log(this.props.chartData);
+    const timeElapsed = Date.now();
+    const today = new Date(timeElapsed);
+
     return (
       <div className="chart">
-        <Bar data={this.props.chartData} />
+        <Bar
+          data={this.props.chartData}
+          options={{
+            title: {
+              display: true,
+              text: "Number of total COVID cases in the US by state ",
+              fontSize: 25,
+            },
+          }}
+        />
+        <p>As of {today.toDateString()}</p>
       </div>
     );
   }

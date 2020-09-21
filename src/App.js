@@ -15,7 +15,7 @@ class App extends Component {
       labels: stateArr,
       datasets: [
         {
-          label: "n/b of total cases in the US by state",
+          label: "n/b of total cases",
           data: casesArr,
           backgroundColor: colorArr,
         },

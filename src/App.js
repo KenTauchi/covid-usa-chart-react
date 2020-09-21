@@ -21,6 +21,7 @@ class App extends Component {
         },
       ],
     },
+    render: false,
   };
 
   componentDidMount() {
@@ -41,6 +42,10 @@ class App extends Component {
           }
         });
       });
+
+    setTimeout(() => {
+      this.setState({ render: true });
+    }, 1000);
   }
 
   componentDidUpdate() {
@@ -48,15 +53,20 @@ class App extends Component {
   }
 
   render() {
-    return (
-      <div className="App">
-        <Chart
-          legendPosition="bottom"
-          chartData={this.state.chartData}
-          label="true"
-        />
-      </div>
-    );
+    let renderContainer = false;
+    if (this.state.render) {
+      renderContainer = (
+        <div className="App">
+          <Chart
+            legendPosition="bottom"
+            chartData={this.state.chartData}
+            label="true"
+          />
+        </div>
+      );
+    }
+
+    return renderContainer;
   }
 }
 

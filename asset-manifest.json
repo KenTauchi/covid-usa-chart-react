@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/covid-usa-chart-react/static/css/main.5f361e03.chunk.css",
+    "main.js": "/covid-usa-chart-react/static/js/main.1a4e391f.chunk.js",
+    "main.js.map": "/covid-usa-chart-react/static/js/main.1a4e391f.chunk.js.map",
+    "runtime-main.js": "/covid-usa-chart-react/static/js/runtime-main.e3f0c1f2.js",
+    "runtime-main.js.map": "/covid-usa-chart-react/static/js/runtime-main.e3f0c1f2.js.map",
+    "static/js/2.91780818.chunk.js": "/covid-usa-chart-react/static/js/2.91780818.chunk.js",
+    "static/js/2.91780818.chunk.js.map": "/covid-usa-chart-react/static/js/2.91780818.chunk.js.map",
+    "index.html": "/covid-usa-chart-react/index.html",
+    "precache-manifest.1239676340b5f0f6ea9782e1992249fc.js": "/covid-usa-chart-react/precache-manifest.1239676340b5f0f6ea9782e1992249fc.js",
+    "service-worker.js": "/covid-usa-chart-react/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/covid-usa-chart-react/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.91780818.chunk.js.LICENSE.txt": "/covid-usa-chart-react/static/js/2.91780818.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3f0c1f2.js",
+    "static/js/2.91780818.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.1a4e391f.chunk.js"
+  ]
+}

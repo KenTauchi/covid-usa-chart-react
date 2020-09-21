@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e33579d2892a6fbf3a03dd0c81ac2e25",
+    "revision": "3ad02e5adb4d83629bc92e44b321d291",
     "url": "/covid-usa-chart-react/index.html"
   },
   {
-    "revision": "dd49fd1ff096fc076f7d",
-    "url": "/covid-usa-chart-react/static/css/main.8f440c5d.chunk.css"
+    "revision": "d7575ed99bc45f40ffd6",
+    "url": "/covid-usa-chart-react/static/css/main.0e54e814.chunk.css"
   },
   {
     "revision": "4f8819b12aa7f232aee0",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid-usa-chart-react/static/js/2.91780818.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "dd49fd1ff096fc076f7d",
-    "url": "/covid-usa-chart-react/static/js/main.0e8146fa.chunk.js"
+    "revision": "d7575ed99bc45f40ffd6",
+    "url": "/covid-usa-chart-react/static/js/main.799b08a6.chunk.js"
   },
   {
     "revision": "27ee946d808b9820f795",
